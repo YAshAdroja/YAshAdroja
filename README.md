@@ -9,25 +9,27 @@
 [comment]: <> (</h1>)
 
 <h1 align="center">
-  Hi, I'm YAsh Adroja 
+  Hi, I'm Yash Adroja 🚀
 </h1>
 
-<h5 align="center">
-  <code><a href="https://www.linkedin.com/in/yashadroja-8456/" title="LinkedIn Profile"><img width="22" src="https://github.com/YAshAdroja/YAshAdroja/blob/main/assets/linkedin.svg"> LinkedIn</a></code>
-</h5>
+<p align="center">
+  <strong>Senior React Native Developer | Tech Lead | Mobile Application Architect</strong>
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://yashadroja.github.io/YAshAdroja/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-06B6D4?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/yashadroja-8456/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:yash.developer8456@gmail.com"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
 <br/>
 
 <p align="center">
-  Hi, I'm YAsh Adroja, Android & React Native Developer from India
+  Senior React Native Developer & Tech Lead with <strong>8+ years</strong> of mobile engineering experience (6+ years in React Native & TypeScript).
   <br>
-  <br>
-  🔬 I'm currently working as a React Native Developer 
-  <br>
-  💬 Ask me anything about from <a href="https://github.com/YAshAdroja/YAshAdroja/issues" title="Issues">Here</a>
-  <br>
-  📫 How to reach me: <a href="mailto: yash.developer8456@gmail.com">yash.developer8456@gmail.com</a>
+  Currently leading mobile architecture at <strong>Lifemaan</strong>, building scalable healthcare applications deployed across <strong>50+ hospitals</strong> and <strong>150+ doctors</strong>.
+  <br><br>
+  📫 <strong>Direct Reach:</strong> <a href="mailto:yash.developer8456@gmail.com">yash.developer8456@gmail.com</a> | 📱 <strong>Phone:</strong> +91 9033968296
 </p>
 <br>
 

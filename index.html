@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Yash Adroja | Senior React Native Developer & Tech Lead</title>
+  <meta name="title" content="Yash Adroja | Senior React Native Developer & Tech Lead">
+  <meta name="description" content="Senior React Native Developer & Mobile Architect with 8+ years experience (6+ years React Native & TypeScript). Architecting scalable healthcare & enterprise mobile applications used across 50+ hospitals and 150+ doctors.">
+  <meta name="keywords" content="Yash Adroja, React Native Developer, Tech Lead, Mobile Architect, TypeScript, Android Developer, Cursor IDE, Antigravity, Claude, Cross Platform Mobile Apps, Healthcare Mobile Tech, Lifemaan">
+  <meta name="author" content="Yash Adroja">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yashadroja.github.io/YAshAdroja/">
+  <meta property="og:title" content="Yash Adroja | Senior React Native Developer & Tech Lead">
+  <meta property="og:description" content="Architecting high-performance mobile systems and scalable cross-platform apps with React Native, TypeScript, Android, and modern AI engineering tools.">
+  <meta property="og:image" content="assets/images/yash-profile.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Yash Adroja | Senior React Native Developer & Tech Lead">
+  <meta property="twitter:description" content="Senior React Native Developer with 8+ years in mobile engineering. Leading mobile tech across 50+ hospitals and 150+ doctors.">
+  <meta property="twitter:image" content="assets/images/yash-profile.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2306b6d4'/><text x='50%' y='62%' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='48' fill='%23080c14'>YA</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Animated Background -->
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Yash Adroja Home">
+        <div class="brand-logo">YA</div>
+        <div class="brand-text">
+          <span class="brand-name">Yash Adroja</span>
+          <span class="brand-status">
+            <span class="status-dot"></span> Open to Opportunities
+          </span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#metrics" class="nav-link">Impact</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/docs/Yash_Adroja_Resume.pdf" download="Yash_Adroja_Resume.pdf" class="btn btn-primary btn-sm">
+          <span>Get CV</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme" title="Switch theme">☀️</button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge-container">
+              <div class="hero-badge">
+                <span>⚡ Senior React Native Developer & Tech Lead</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Architecting <span class="gradient-text">Scalable Mobile Apps</span> & Mission-Critical Systems
+            </h1>
+
+            <p class="hero-description">
+              Senior Mobile Engineer with <strong>8+ years</strong> of total experience and <strong>6+ years</strong> specializing in React Native & TypeScript. Leading mobile architecture for healthcare platforms deployed across <strong>50+ hospitals</strong> and <strong>150+ doctors</strong>, leveraging cutting-edge AI engineering workflows.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                <span>Explore Featured Work</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+              <a href="assets/docs/Yash_Adroja_Resume.pdf" download="Yash_Adroja_Resume.pdf" class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume</span>
+              </a>
+              <button class="btn btn-outline open-cover-letter-btn">
+                <span>View Cover Letter</span>
+              </button>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/yashadroja-8456" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+                <img src="assets/linkedin.svg" alt="LinkedIn">
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/YAshAdroja" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+                <img src="assets/github.svg" alt="GitHub">
+                <span>GitHub</span>
+              </a>
+              <a href="mailto:yash.developer8456@gmail.com" class="social-pill" title="Send Email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Email</span>
+              </a>
+              <button onclick="copyToClipboard('+919033968296', 'Phone Number')" class="social-pill" title="Copy Phone Number">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>+91 9033968296</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="avatar-card">
+              <div class="avatar-img-wrapper">
+                <img src="assets/images/yash-profile.jpeg" alt="Yash Adroja portrait" class="avatar-img">
+                <div class="avatar-overlay-gradient"></div>
+              </div>
+
+              <!-- Floating Context Badges -->
+              <div class="floating-badge badge-top-left">
+                <img src="assets/react-original.svg" alt="React Native">
+                <span>React Native & TS</span>
+              </div>
+
+              <div class="floating-badge badge-bottom-right">
+                <img src="assets/cursor.svg" alt="Cursor AI">
+                <span>AI-Assisted (Cursor)</span>
+              </div>
+
+              <div class="floating-badge badge-exp">
+                <span>🏆 8+ Years Exp</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         METRICS COUNTER SECTION
+         ======================================================================= -->
+    <section class="metrics-section" id="metrics">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-number" data-target="8" data-suffix="+">0+</div>
+            <div class="metric-label">Years Experience</div>
+            <div class="metric-sub">Mobile application engineering</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number" data-target="6" data-suffix="+">0+</div>
+            <div class="metric-label">React Native & TS</div>
+            <div class="metric-sub">Cross-platform architecture</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number" data-target="50" data-suffix="+">0+</div>
+            <div class="metric-label">Hospitals Powered</div>
+            <div class="metric-sub">Clinical platforms in production</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number" data-target="150" data-suffix="+">0+</div>
+            <div class="metric-label">Active Doctors</div>
+            <div class="metric-sub">High-stakes healthcare users</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ABOUT & LEADERSHIP SECTION
+         ======================================================================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Engineering Leadership</div>
+          <h2 class="section-title">Bridging Technical Architecture with <span class="gradient-text">Business Impact</span></h2>
+          <p class="section-subtitle">
+            Passionate about writing clean, maintainable code, eliminating performance bottlenecks, and guiding cross-functional teams to build resilient products.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p>
+              I am a <strong>Senior React Native Developer and Tech Lead</strong> based in Surat, India. Over the past 8+ years, I have architected and shipped complex, high-scale applications for Android and iOS, with deep focus on modern TypeScript, state synchronization, and rock-solid modular design.
+            </p>
+            <p>
+              In my current role at <strong>Lifemaan</strong>, I collaborate directly with the CEO, product directors, and executive leadership to transform clinical and healthcare workflows into intuitive mobile solutions. My work encompasses custom dynamic form builders, real-time messaging, speech-to-text integrations, offline-first data sync, and high-precision document printing.
+            </p>
+            <p>
+              I also actively incorporate next-generation developer tooling—including <strong>Cursor IDE</strong>, <strong>Google Antigravity</strong> agentic flows, and <strong>Claude</strong>—to accelerate prototyping, maintain stringent code reviews, and deliver software faster without sacrificing quality.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <h4>⚡ Dynamic Form Engines</h4>
+                <p>Engineered reusable form systems powering fast, adaptable medical charts and intake workflows.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>🛡️ Scalable Architecture</h4>
+                <p>Designed modular white-label React Native codebases with shared core libraries.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>🤖 AI-Augmented Velocity</h4>
+                <p>Leveraging Cursor, Antigravity, and Claude to multiply engineering throughput and accuracy.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>👥 Team Mentorship</h4>
+                <p>Trained junior developers, established code review standards, and guided sprint execution.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <button class="btn btn-primary btn-sm open-cover-letter-btn">
+                <span>Read Full Cover Letter</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </button>
+              <a href="#contact" class="btn btn-secondary btn-sm">Connect Directly</a>
+            </div>
+          </div>
+
+          <div class="about-credentials">
+            <div class="credentials-card">
+              <h3>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                Education & Background
+              </h3>
+
+              <div class="credential-item">
+                <div class="credential-icon">🎓</div>
+                <div class="credential-info">
+                  <h4>B.Tech in Computer Engineering</h4>
+                  <p>Chhotubhai Gopalbhai Patel Institute of Technology</p>
+                  <span>2015 – 2018</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="credential-icon">🏛️</div>
+                <div class="credential-info">
+                  <h4>Diploma in Computer Engineering</h4>
+                  <p>Bhagwan Mahavir College of Engineering & Technology</p>
+                  <span>2012 – 2015</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="credential-icon">📍</div>
+                <div class="credential-info">
+                  <h4>Location & Global Availability</h4>
+                  <p>Surat, Gujarat, India • Available for Global Remote & Relocation</p>
+                  <span>Timezone: IST (UTC+5:30) • Flexible for cross-border overlap</span>
+                </div>
+              </div>
+
+              <div class="credential-item">
+                <div class="credential-icon">🗣️</div>
+                <div class="credential-info">
+                  <h4>Languages Spoken</h4>
+                  <p>English (Professional), Hindi (Fluent), Gujarati (Native)</p>
+                  <span>High clarity in client and executive stakeholder communication</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         FEATURED PROJECTS SECTION
+         ======================================================================= -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Selected Work</div>
+          <h2 class="section-title">Production Systems & <span class="gradient-text">Key Projects</span></h2>
+          <p class="section-subtitle">
+            Real-world applications engineered for scale, zero downtime, and mission-critical workflows.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <span class="project-tag flagship">Flagship Healthcare Platform</span>
+            <h3 class="project-title">Lifemaan Healthcare Suite</h3>
+            <p class="project-description">
+              Enterprise clinical and hospital mobile platform serving doctors, healthcare operators, and patient care workflows across 50+ medical centers.
+            </p>
+            <ul class="project-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Dynamic Form Engine:</strong> Built flexible form generation for medical history, prescriptions, and intake sheets.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Real-Time Chat & Speech-to-Text:</strong> Streamlined doctor note taking and instant clinical communication.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>IPD Table Sheets & Smart Invoicing:</strong> Fast HTML rendering and direct hardware Bluetooth printing.</span>
+              </li>
+            </ul>
+            <div class="project-tech-stack">
+              <span class="tech-pill">React Native</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Firebase</span>
+              <span class="tech-pill">REST APIs</span>
+              <span class="tech-pill">Socket.IO</span>
+              <span class="tech-pill">Smart Printing</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <span class="project-tag">FinTech & Multi-Tenant</span>
+            <h3 class="project-title">CreditMountain White-Label App</h3>
+            <p class="project-description">
+              Multi-tenant React Native application with shared modular architecture, custom client-specific branding, and enterprise security standards.
+            </p>
+            <ul class="project-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Shared Core Architecture:</strong> Managed white-label variants with zero code divergence.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Bitrise CI/CD Pipelines:</strong> Automated testing, build flavors, code signing, and store deployments.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Production Stability:</strong> Optimized memory usage and resolved complex runtime crashes.</span>
+              </li>
+            </ul>
+            <div class="project-tech-stack">
+              <span class="tech-pill">React Native</span>
+              <span class="tech-pill">Bitrise CI/CD</span>
+              <span class="tech-pill">REST APIs</span>
+              <span class="tech-pill">White-Label Theming</span>
+              <span class="tech-pill">Crash Diagnostics</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <span class="project-tag">Enterprise & Native Mobile</span>
+            <h3 class="project-title">Enterprise Mobile Systems</h3>
+            <p class="project-description">
+              End-to-end mobile applications built from scratch, combining native Android modules with React Native for maximum device capability and responsiveness.
+            </p>
+            <ul class="project-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Cross-Platform Synchronization:</strong> Redux Toolkit and offline caching for unreliable network environments.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Native Android Bridging:</strong> Custom native bridge modules for hardware sensors and background sync.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Engineering Best Practices:</strong> Established strict linting, automated testing, and CI validation.</span>
+              </li>
+            </ul>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Android Native</span>
+              <span class="tech-pill">React Native</span>
+              <span class="tech-pill">Redux Toolkit</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Push Notifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         WORK EXPERIENCE SECTION
+         ======================================================================= -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Career Track</div>
+          <h2 class="section-title">Professional <span class="gradient-text">Work Experience</span></h2>
+          <p class="section-subtitle">
+            Over 8 years of continuous technical growth, leadership responsibility, and production deliveries.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Tech Lead (Mobile)</h3>
+                  <div class="timeline-company">Lifemaan</div>
+                </div>
+                <div class="timeline-duration">Mar 2023 – Present</div>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Led development of scalable healthcare applications deployed across 50+ hospitals and 150+ doctors.</li>
+                  <li>Collaborated directly with CEO and executive teams to steer roadmap, technical trade-offs, and critical feature delivery.</li>
+                  <li>Delivered Dynamic Forms Engine, Real-Time Chat, Speech-to-Text, IPD Table Sheets, Smart Printing, and HTML Invoicing.</li>
+                  <li>Architected reusable React Native components, decreasing delivery time for new medical workflows by 35%.</li>
+                  <li>Diagnosed and eliminated production bugs, memory leaks, and performance bottlenecks across Android and iOS devices.</li>
+                </ul>
+              </div>
+              <div class="timeline-skills">
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Healthcare Tech</span>
+                <span class="tech-pill">Architecture Design</span>
+                <span class="tech-pill">Team Leadership</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Sr React Native Developer & Android Developer</h3>
+                  <div class="timeline-company">Identiq Infotech</div>
+                </div>
+                <div class="timeline-duration">Oct 2022 – Mar 2023</div>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Contributed to scalable mobile architecture design and feature delivery across multiple client engagements.</li>
+                  <li>Engineered native Android bridges and optimized cross-platform React Native performance.</li>
+                  <li>Maintained production uptime and addressed critical issues reported by enterprise customers.</li>
+                </ul>
+              </div>
+              <div class="timeline-skills">
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">Android (Java/Kotlin)</span>
+                <span class="tech-pill">API Integration</span>
+                <span class="tech-pill">Code Reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">React Native Developer</h3>
+                  <div class="timeline-company">Propelius Tech</div>
+                </div>
+                <div class="timeline-duration">Oct 2021 – Sep 2022</div>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Developed cross-platform applications with clean, reusable UI component systems.</li>
+                  <li>Implemented REST API integrations, state machines, and background notification services.</li>
+                  <li>Automated CI/CD build distribution and testing workflows using Bitrise.</li>
+                </ul>
+              </div>
+              <div class="timeline-skills">
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">Redux</span>
+                <span class="tech-pill">Bitrise CI/CD</span>
+                <span class="tech-pill">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Android & React Native Developer</h3>
+                  <div class="timeline-company">Earlier Experience</div>
+                </div>
+                <div class="timeline-duration">Aug 2018 – Sep 2021</div>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Engineered and deployed native Android and React Native apps across varied domain verticals.</li>
+                  <li>Mastered mobile lifecycle, UI threading, local caching, push notifications, and release engineering.</li>
+                  <li>Collaborated closely with designers and QA to ensure pixel-perfect fidelity and smooth 60fps animations.</li>
+                </ul>
+              </div>
+              <div class="timeline-skills">
+                <span class="tech-pill">Android</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">Mobile Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SKILLS & TECH MATRIX SECTION (INCLUDES CURSOR, ANTIGRAVITY & CLAUDE)
+         ======================================================================= -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Technology Stack</div>
+          <h2 class="section-title">Technical Expertise & <span class="gradient-text">Core Competencies</span></h2>
+          <p class="section-subtitle">
+            Battle-tested frameworks, mobile systems, architecture patterns, and next-generation AI developer tooling.
+          </p>
+        </div>
+
+        <div class="skills-tabs">
+          <button class="tab-btn active" data-filter="all">All Technologies</button>
+          <button class="tab-btn" data-filter="mobile">Mobile & Languages</button>
+          <button class="tab-btn" data-filter="ai">AI & Next-Gen Tools</button>
+          <button class="tab-btn" data-filter="architecture">Architecture & Systems</button>
+          <button class="tab-btn" data-filter="integrations">Integrations & APIs</button>
+          <button class="tab-btn" data-filter="tools">DevOps & Tools</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- React Native -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-icon-wrapper">
+              <img src="assets/react-original.svg" alt="React Native" class="skill-icon">
+            </div>
+            <div class="skill-name">React Native</div>
+            <div class="skill-badge">Core Specialization</div>
+          </div>
+
+          <!-- TypeScript -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-icon-wrapper">
+              <img src="assets/typescript.svg" alt="TypeScript" class="skill-icon">
+            </div>
+            <div class="skill-name">TypeScript</div>
+            <div class="skill-badge">Type Safety & Scale</div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-icon-wrapper">
+              <img src="assets/javascript.svg" alt="JavaScript" class="skill-icon">
+            </div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-badge">ES6+ & Async</div>
+          </div>
+
+          <!-- Android Native -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-icon-wrapper">
+              <img src="assets/android.svg" alt="Android" class="skill-icon">
+            </div>
+            <div class="skill-name">Android Native</div>
+            <div class="skill-badge">Java / Kotlin Bridges</div>
+          </div>
+
+          <!-- Cursor IDE (AI) -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-wrapper">
+              <img src="assets/cursor.svg" alt="Cursor IDE" class="skill-icon">
+            </div>
+            <div class="skill-name">Cursor IDE</div>
+            <div class="skill-badge">AI-First Development</div>
+          </div>
+
+          <!-- Google Antigravity (AI) -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-wrapper">
+              <img src="assets/antigravity.svg" alt="Antigravity" class="skill-icon">
+            </div>
+            <div class="skill-name">Google Antigravity</div>
+            <div class="skill-badge">Agentic Workflows</div>
+          </div>
+
+          <!-- Claude (AI) -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-wrapper">
+              <img src="assets/claude.svg" alt="Claude AI" class="skill-icon">
+            </div>
+            <div class="skill-name">Claude & LLMs</div>
+            <div class="skill-badge">Architecture & Logic</div>
+          </div>
+
+          <!-- Redux Toolkit -->
+          <div class="skill-card" data-category="architecture">
+            <div class="skill-icon-wrapper">
+              <img src="assets/redux.svg" alt="Redux" class="skill-icon">
+            </div>
+            <div class="skill-name">Redux Toolkit</div>
+            <div class="skill-badge">Predictable State</div>
+          </div>
+
+          <!-- Architecture & Problem Solving -->
+          <div class="skill-card" data-category="architecture">
+            <div class="skill-icon-wrapper">
+              <img src="assets/problemSolving.png" alt="Architecture" class="skill-icon">
+            </div>
+            <div class="skill-name">Mobile Architecture</div>
+            <div class="skill-badge">Scalable Systems</div>
+          </div>
+
+          <!-- Dynamic Forms -->
+          <div class="skill-card" data-category="architecture">
+            <div class="skill-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            </div>
+            <div class="skill-name">Dynamic Forms</div>
+            <div class="skill-badge">Schema Engine</div>
+          </div>
+
+          <!-- REST APIs & JSON -->
+          <div class="skill-card" data-category="integrations">
+            <div class="skill-icon-wrapper">
+              <img src="assets/json.svg" alt="JSON / REST" class="skill-icon">
+            </div>
+            <div class="skill-name">REST APIs / JSON</div>
+            <div class="skill-badge">Backend Integration</div>
+          </div>
+
+          <!-- Firebase & Push -->
+          <div class="skill-card" data-category="integrations">
+            <div class="skill-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="skill-name">Firebase & Cloud</div>
+            <div class="skill-badge">Auth, DB & FCM</div>
+          </div>
+
+          <!-- Socket.IO & Realtime -->
+          <div class="skill-card" data-category="integrations">
+            <div class="skill-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+            <div class="skill-name">Socket.IO & Chat</div>
+            <div class="skill-badge">Real-Time Messaging</div>
+          </div>
+
+          <!-- Git -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <img src="assets/git-original.svg" alt="Git" class="skill-icon">
+            </div>
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-badge">Version Control</div>
+          </div>
+
+          <!-- Bitrise CI/CD -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+            </div>
+            <div class="skill-name">Bitrise CI/CD</div>
+            <div class="skill-badge">Automated Delivery</div>
+          </div>
+
+          <!-- VS Code -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <img src="assets/vscode.png" alt="VS Code" class="skill-icon">
+            </div>
+            <div class="skill-name">VS Code / IDEs</div>
+            <div class="skill-badge">Development Setup</div>
+          </div>
+
+          <!-- npm -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <img src="assets/npm.svg" alt="npm" class="skill-icon">
+            </div>
+            <div class="skill-name">npm & Modules</div>
+            <div class="skill-badge">Package Management</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         RESUME & DOCUMENTS SECTION
+         ======================================================================= -->
+    <section class="resume-section" id="resume">
+      <div class="container">
+        <div class="resume-container-box">
+          <div class="resume-details">
+            <div class="section-badge">Official Documents</div>
+            <h3>Ready to Review My Full Experience?</h3>
+            <p>
+              Download my complete, up-to-date resume and cover letter detailing my 8+ years of technical achievements, architectural deliverables, and hospital-scale metrics.
+            </p>
+            <div class="resume-actions">
+              <a href="assets/docs/Yash_Adroja_Resume.pdf" download="Yash_Adroja_Resume.pdf" class="btn btn-primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <button class="btn btn-secondary open-cover-letter-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>Preview Cover Letter</span>
+              </button>
+              <a href="assets/docs/Yash_Adroja_Cover_Letter.pdf" download="Yash_Adroja_Cover_Letter.pdf" class="btn btn-outline">
+                <span>Download Letter (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-preview-card">
+            <div class="doc-badge-icon">📄</div>
+            <div>
+              <h4 style="font-size: 1.15rem; margin-bottom: 4px;">Yash Adroja — CV</h4>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Senior React Native Developer & Tech Lead</p>
+            </div>
+            <div style="font-size: 0.8rem; color: var(--accent-emerald); font-weight: 600;">
+              ✓ Updated for 2026 Opportunities
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SIMPLIFIED CONTACT & DIRECT MESSAGING SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Get In Touch</div>
+          <h2 class="section-title">Let's Connect & <span class="gradient-text">Build Together</span></h2>
+          <p class="section-subtitle">
+            Looking for a Senior React Native Developer, Tech Lead, or Mobile Architect? Reach out via direct channels or send a message below.
+          </p>
+        </div>
+
+        <!-- How To Use / Helper Callout -->
+        <div class="contact-helper-box">
+          <div class="contact-helper-icon">💡</div>
+          <div class="contact-helper-text">
+            <strong>How to send a message directly:</strong> Fill in the brief form on the right and click <strong>"Send via Gmail"</strong> (opens in your browser) or <strong>"Default Mail App"</strong>. You can also click <strong>"Copy Message"</strong> to paste it into LinkedIn, Slack, or WhatsApp!
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Tiles -->
+          <div class="contact-card-info">
+            <!-- Email -->
+            <div class="contact-tile">
+              <div class="tile-content">
+                <div class="tile-icon">✉️</div>
+                <div class="tile-text">
+                  <h4>Email</h4>
+                  <p>yash.developer8456@gmail.com</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <button onclick="copyToClipboard('yash.developer8456@gmail.com', 'Email')" class="tile-btn">Copy</button>
+                <a href="mailto:yash.developer8456@gmail.com" class="tile-btn">Mail</a>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-tile">
+              <div class="tile-content">
+                <div class="tile-icon">📱</div>
+                <div class="tile-text">
+                  <h4>Phone / WhatsApp</h4>
+                  <p>+91 9033968296</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <button onclick="copyToClipboard('+919033968296', 'Phone Number')" class="tile-btn">Copy</button>
+                <a href="tel:+919033968296" class="tile-btn">Call</a>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-tile">
+              <div class="tile-content">
+                <div class="tile-icon">
+                  <img src="assets/linkedin.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+                </div>
+                <div class="tile-text">
+                  <h4>LinkedIn</h4>
+                  <p>linkedin.com/in/yashadroja-8456</p>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/yashadroja-8456" target="_blank" rel="noopener noreferrer" class="tile-btn">Connect</a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-tile">
+              <div class="tile-content">
+                <div class="tile-icon">
+                  <img src="assets/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+                </div>
+                <div class="tile-text">
+                  <h4>GitHub</h4>
+                  <p>github.com/YAshAdroja</p>
+                </div>
+              </div>
+              <a href="https://github.com/YAshAdroja" target="_blank" rel="noopener noreferrer" class="tile-btn">Follow</a>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-tile">
+              <div class="tile-content">
+                <div class="tile-icon">📍</div>
+                <div class="tile-text">
+                  <h4>Location</h4>
+                  <p>Surat, Gujarat, India (Open to Remote / Relocation)</p>
+                </div>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-cyan); font-weight: 600;">IST (UTC+5:30)</span>
+            </div>
+          </div>
+
+          <!-- Simplified Contact Form -->
+          <div class="contact-form-card">
+            <div class="form-header">
+              <h3>Send Direct Message</h3>
+              <p>Type your message below and choose how you want to send or copy it:</p>
+            </div>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="formName" class="form-label">Your Name</label>
+                <input type="text" id="formName" class="form-input" placeholder="e.g. Hiring Manager / Recruiter" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Your Email</label>
+                <input type="email" id="formEmail" class="form-input" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message</label>
+                <textarea id="formMessage" class="form-textarea" placeholder="Hi Yash, we reviewed your healthcare architecture background and would love to discuss a Senior/Lead Mobile role..." required></textarea>
+              </div>
+
+              <!-- Clear Action Buttons -->
+              <div class="form-actions-bar">
+                <button type="button" onclick="sendViaGmail()" class="btn btn-primary" title="Opens pre-filled message in Gmail">
+                  <span>🚀 Send via Gmail</span>
+                </button>
+                <button type="button" onclick="sendViaDefaultMail()" class="btn btn-secondary" title="Opens Apple Mail, Outlook, or system client">
+                  <span>✉️ Default Mail App</span>
+                </button>
+                <button type="button" onclick="copyFormMessage()" class="btn btn-outline" style="width: 100%;" title="Copy ready-to-paste message text">
+                  <span>📋 Copy Message Text</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-text">
+        © 2026 <strong>Yash Adroja</strong>. Senior React Native Developer & Mobile Architect.
+      </div>
+      <div>
+        <a href="#hero" class="back-to-top">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       COVER LETTER MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="coverLetterModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close modal">✕</button>
+      <h3 id="modalTitle" style="font-size: 1.5rem; margin-bottom: 4px;">Cover Letter</h3>
+      <p style="color: var(--text-cyan); font-size: 0.9rem; margin-bottom: 20px;">Yash Adroja — Senior React Native Developer</p>
+      <div class="modal-body">
+        <div class="cover-letter-text">
+Dear Hiring Manager,
+
+I am writing to express my interest in the React Native Developer / Senior React Native Developer position at your organization. With 8+ years of experience in mobile application development, including 6+ years of hands-on experience with React Native, I have strong experience building scalable, high-performance applications for Android and iOS.
+
+In my current role, I work on complex healthcare applications, developing features such as patient management, prescriptions, reports, offline functionality, API integrations, notifications, and third-party SDK integrations. I also contribute to architecture decisions, performance optimization, code reviews, technical problem-solving, and team collaboration.
+
+I am comfortable working closely with product managers, designers, QA engineers, and backend developers to deliver reliable and user-friendly applications. I am passionate about writing clean, maintainable code and continuously improving application performance and development processes.
+
+I would welcome the opportunity to discuss how my experience and technical skills can contribute to your team. Thank you for considering my application. I look forward to hearing from you.
+
+Best regards,
+Yash Adroja
+Senior React Native Developer
+Surat, Gujarat, India
+yash.developer8456@gmail.com | +91 9033968296
+        </div>
+        <div style="margin-top: 24px; display: flex; gap: 14px; justify-content: flex-end;">
+          <a href="assets/docs/Yash_Adroja_Cover_Letter.pdf" download="Yash_Adroja_Cover_Letter.pdf" class="btn btn-primary btn-sm">
+            <span>Download Official PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite">✓ Copied to clipboard!</div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
